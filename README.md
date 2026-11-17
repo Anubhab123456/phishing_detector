@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🛡️ Phishing Website Detection using Machine Learning
 
 Enter a URL → extract 37 lexical features → ML model predicts **legitimate** or **phishing**
@@ -90,3 +91,7 @@ with page-content, WHOIS/domain-age, and reputation signals, and retrain regular
 - `Model not found` → run `python -m src.train`.
 - `streamlit: command not found` → activate the virtualenv, or use `python -m streamlit run app.py`.
 - Port busy → `streamlit run app.py --server.port 8502`.
+=======
+# phishing_detector
+Machine-learning phishing URL detector. Extracts 37 lexical features, classifies links as legitimate or phishing with Random Forest, Gradient Boosting and Logistic Regression, and explains each prediction in a Streamlit dashboard. URLs are never visited, so it’s safe to test.
+>>>>>>> bf7ed50eb90db4de4d167efbcf08789af289e802
