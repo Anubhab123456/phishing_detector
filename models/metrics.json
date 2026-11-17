@@ -1,0 +1,1299 @@
+{
+  "best_model": "Random Forest",
+  "results": {
+    "Random Forest": {
+      "accuracy": 0.9725738396624473,
+      "precision": 0.9693708609271523,
+      "recall": 0.9766472060050042,
+      "f1": 0.9729954299958454,
+      "roc_auc": 0.9743331512383292,
+      "confusion_matrix": [
+        [
+          1134,
+          37
+        ],
+        [
+          28,
+          1171
+        ]
+      ]
+    },
+    "Gradient Boosting": {
+      "accuracy": 0.970886075949367,
+      "precision": 0.9669421487603306,
+      "recall": 0.97581317764804,
+      "f1": 0.9713574097135741,
+      "roc_auc": 0.9743217554623159,
+      "confusion_matrix": [
+        [
+          1131,
+          40
+        ],
+        [
+          29,
+          1170
+        ]
+      ]
+    },
+    "Logistic Regression": {
+      "accuracy": 0.9367088607594937,
+      "precision": 0.9302707136997539,
+      "recall": 0.9457881567973311,
+      "f1": 0.9379652605459057,
+      "roc_auc": 0.9654191615700246,
+      "confusion_matrix": [
+        [
+          1086,
+          85
+        ],
+        [
+          65,
+          1134
+        ]
+      ]
+    }
+  },
+  "feature_importance": {
+    "num_suspicious_keywords": 0.11781209144091165,
+    "num_subdomains": 0.08107555432680155,
+    "is_https": 0.06200485179437216,
+    "digits_in_hostname": 0.05433878755573074,
+    "query_length": 0.05311668230119603,
+    "path_length": 0.049433651346881026,
+    "url_length": 0.046847487402897535,
+    "num_dots": 0.045633139747590874,
+    "avg_token_length": 0.04403992429729123,
+    "path_entropy": 0.03812634207352483,
+    "num_special_chars": 0.0353790274862729,
+    "hostname_entropy": 0.03298893244372242,
+    "hostname_length": 0.032787102903903055,
+    "num_equals": 0.03213615946128343,
+    "brand_in_subdomain_or_path": 0.03193241649580531,
+    "num_question": 0.031914580699230546,
+    "longest_token_length": 0.029834666209645904,
+    "letter_ratio": 0.02467933429654205,
+    "digit_ratio": 0.022308752512383862,
+    "suspicious_tld": 0.01648333292569638,
+    "num_slashes": 0.016144013270959667,
+    "num_digits": 0.015538772660434097,
+    "has_port": 0.013126438963155525,
+    "num_hyphens": 0.012183451141895722,
+    "hyphens_in_hostname": 0.010815409119512249,
+    "tld_length": 0.010191006412556115,
+    "is_shortener": 0.009715472715739373,
+    "path_depth": 0.008625279049591419,
+    "has_punycode": 0.004779141696693719,
+    "num_ampersand": 0.004518567822293956,
+    "num_percent": 0.002572198077184939,
+    "num_underscores": 0.0021504986134495033,
+    "brand_in_domain_with_extras": 0.0019030397776802154,
+    "num_at": 0.0017484399416119963,
+    "has_ip_address": 0.001641082753460233,
+    "has_at_symbol_trick": 0.0014743702620977266,
+    "double_slash_in_path": 0.0
+  },
+  "stream_sample": [
+    {
+      "url": "https://atlashub.org/account",
+      "label": 1
+    },
+    {
+      "url": "https://mail.pypi.org/products",
+      "label": 0
+    },
+    {
+      "url": "https://icici.com.secure-y3l96.site/billing/verify.html",
+      "label": 1
+    },
+    {
+      "url": "http://facebook.com@yacgsv5.ru/login",
+      "label": 1
+    },
+    {
+      "url": "http://220.129.180.171/hsbc/verify/index.php",
+      "label": 1
+    },
+    {
+      "url": "https://habitmedia.io/user/profile?page=2&sort=asc",
+      "label": 0
+    },
+    {
+      "url": "https://maple-design-nova.online/account/support?id=f1adfq90qph8&session=a51gzfz7yhtd6oo7",
+      "label": 0
+    },
+    {
+      "url": "http://www.wikipedia.org/support",
+      "label": 0
+    },
+    {
+      "url": "https://en.linkedin.com/pricing",
+      "label": 0
+    },
+    {
+      "url": "http://billing.account.account.banking.alert.iyrafpof.info/signin.html",
+      "label": 1
+    },
+    {
+      "url": "https://secure.amazon.com/wallet/u8lsi6l5?redirect=%2Fhome&token=sodyntgxh2ylsro5z4lh",
+      "label": 0
+    },
+    {
+      "url": "http://bb2haaxno2pg14pp.info/passwordsupport/nqb9whpkg2/account.html",
+      "label": 1
+    },
+    {
+      "url": "https://www.stripe.com/login?q=python+tutorial",
+      "label": 0
+    },
+    {
+      "url": "https://bluehealth.co/support",
+      "label": 1
+    },
+    {
+      "url": "https://youtube.com/learn/python",
+      "label": 0
+    },
+    {
+      "url": "https://login.google.com/secure",
+      "label": 0
+    },
+    {
+      "url": "http://www.reddit.com/account/settings?ref=homepage",
+      "label": 0
+    },
+    {
+      "url": "https://www.atlassystems.edu/user/profile",
+      "label": 0
+    },
+    {
+      "url": "https://accounts.npmjs.com/update",
+      "label": 0
+    },
+    {
+      "url": "https://trailmedia.com/products?utm_source=newsletter&utm_medium=email",
+      "label": 0
+    },
+    {
+      "url": "https://github.com?utm_source=newsletter&utm_medium=email",
+      "label": 0
+    },
+    {
+      "url": "http://q7549um6s86l9hp.live/confirmpassword/8fcpvuek1q/login.php",
+      "label": 1
+    },
+    {
+      "url": "http://brighttech.net/confirm/dropbox/login.php?session=6qavhz8f5a854aa3yt2y&redirect=recover",
+      "label": 1
+    },
+    {
+      "url": "https://accounts.mit.edu/wallet",
+      "label": 0
+    },
+    {
+      "url": "https://swift-games.net/unlock/vfrfmq",
+      "label": 1
+    },
+    {
+      "url": "https://www.brightlabs.net/index.html",
+      "label": 1
+    },
+    {
+      "url": "http://xn--i909n78p-0twb.site/banking%2Falert?id=arqisqr44jsms4nq&token=k612juns8wgbj4b1yq2xjssa",
+      "label": 1
+    },
+    {
+      "url": "https://www.fast-shop.dev/search?ref=homepage",
+      "label": 0
+    },
+    {
+      "url": "http://fedex.com@kc856wpr9.work/billing",
+      "label": 1
+    },
+    {
+      "url": "https://www.pixel-news.io/help/articles",
+      "label": 0
+    },
+    {
+      "url": "http://google-secure-secure.site/secure/login.php",
+      "label": 1
+    },
+    {
+      "url": "https://pine-hub.com/verify/h2n28b",
+      "label": 1
+    },
+    {
+      "url": "https://secure.pypi.org/update/fa4t7qnv?redirect=%2Fhome&token=z8328ab5kq0k1bdnk6s6",
+      "label": 0
+    },
+    {
+      "url": "https://reddit.com/contact",
+      "label": 0
+    },
+    {
+      "url": "https://wellsfargo-verify-secure.cf/verify/",
+      "label": 1
+    },
+    {
+      "url": "http://72.26.223.141/linkedin/login/",
+      "label": 1
+    },
+    {
+      "url": "https://www.pixel-store.edu/user/profile?id=1042&lang=en",
+      "label": 0
+    },
+    {
+      "url": "http://bluestore268.com/wp-includes/microsoft/login/confirm.php",
+      "label": 1
+    },
+    {
+      "url": "https://green-design.dev/account/settings?q=python+tutorial",
+      "label": 0
+    },
+    {
+      "url": "https://secure.udemy.com/banking/26tdoww5?redirect=%2Fhome&token=05bzbqsn5m6sbf0exh75",
+      "label": 0
+    },
+    {
+      "url": "https://alert.alert.update.update.2nydga45.biz/update.aspx",
+      "label": 1
+    },
+    {
+      "url": "https://www.novatravel.com/secure/index.html",
+      "label": 1
+    },
+    {
+      "url": "https://green-labs.co/careers?q=python+tutorial",
+      "label": 0
+    },
+    {
+      "url": "https://www.north-systems.dev/user/profile",
+      "label": 0
+    },
+    {
+      "url": "http://174.78.51.204/linkedin/update/login.php",
+      "label": 1
+    },
+    {
+      "url": "https://support.slack.com/pricing?page=2&sort=asc",
+      "label": 0
+    },
+    {
+      "url": "http://craftstudio425.ru/wp-includes/adobe/verify/update.aspx",
+      "label": 1
+    },
+    {
+      "url": "https://docs.mozilla.org/pricing?ref=homepage",
+      "label": 0
+    },
+    {
+      "url": "https://chase.com.secure-fgydrgr0.info/billing/confirm.php",
+      "label": 1
+    },
+    {
+      "url": "http://cedarhealth436.in/wp-includes/facebook/secure/confirm.php",
+      "label": 1
+    },
+    {
+      "url": "https://www.stone-media.edu/docs?utm_source=newsletter&utm_medium=email",
+      "label": 1
+    },
+    {
+      "url": "https://shop.river-tech.io/products/item-4821?q=python+tutorial",
+      "label": 0
+    },
+    {
+      "url": "https://atlaslabs.site/signin/netflix/confirm.php?session=rtyw9n8k7fdt3uio38io&redirect=confirm",
+      "label": 1
+    },
+    {
+      "url": "https://apple.com/user/profile",
+      "label": 0
+    },
+    {
+      "url": "https://support.youtube.com/news/2024/05/story",
+      "label": 0
+    },
+    {
+      "url": "http://swiftstore48.in/wp-includes/fedex/confirm/verify.html",
+      "label": 1
+    },
+    {
+      "url": "http://bit.ly/GnQS9",
+      "label": 1
+    },
+    {
+      "url": "https://secure.udemy.com/alert/05yr3phl?redirect=%2Fhome&token=vo6moftye638g0q9np3w",
+      "label": 0
+    },
+    {
+      "url": "https://brightbooks.net/secure",
+      "label": 1
+    },
+    {
+      "url": "https://blog.maple-tech.org?utm_source=newsletter&utm_medium=email",
+      "label": 0
+    },
+    {
+      "url": "https://shop.cloudflare.com/pricing",
+      "label": 0
+    },
+    {
+      "url": "https://secure.thehindu.com/password/txza43ho?redirect=%2Fhome&token=ldu7jpmmqzadwajgf00h",
+      "label": 0
+    },
+    {
+      "url": "http://chase.com@8ybpj4.gq/password",
+      "label": 1
+    },
+    {
+      "url": "http://242.212.214.133/icici/confirm/signin.html",
+      "label": 1
+    },
+    {
+      "url": "https://3ti14ummnlwqey3pmqy5.info/validate-login/l3nu4kgsns/login.php",
+      "label": 1
+    },
+    {
+      "url": "http://cedarlabs630.in/wp-includes/hsbc/billing/secure.php",
+      "label": 1
+    },
+    {
+      "url": "https://pdle71xe7wkbs.cf/secure-validate/20txfok8dz/signin.html",
+      "label": 1
+    },
+    {
+      "url": "https://bright-media-cedar.online/products/pixel-design-1042",
+      "label": 0
+    },
+    {
+      "url": "https://blog.cedartech.in/blog?utm_source=newsletter&utm_medium=email",
+      "label": 0
+    },
+    {
+      "url": "https://bluehealth.org/banking",
+      "label": 1
+    },
+    {
+      "url": "http://bit.ly/wX8uDBL",
+      "label": 1
+    },
+    {
+      "url": "https://cedarnews.app/user/profile?page=2&sort=asc",
+      "label": 0
+    },
+    {
+      "url": "https://stone-systems-bloom.xyz/products/blue-health-624",
+      "label": 0
+    },
+    {
+      "url": "https://secure.cloudflare.com/wallet/u9hl3ros?redirect=%2Fhome&token=j1c5bvis9xesnr8cl26v",
+      "label": 0
+    },
+    {
+      "url": "https://craftworks.co/validate",
+      "label": 1
+    },
+    {
+      "url": "http://137.76.30.92/hdfc/alert/update.aspx",
+      "label": 1
+    },
+    {
+      "url": "http://chase.com@6fukzdt.tk/verify",
+      "label": 0
+    },
+    {
+      "url": "https://www.apple.com/signin?page=2&sort=asc",
+      "label": 0
+    },
+    {
+      "url": "http://www.green-travel.net/search?utm_source=newsletter&utm_medium=email",
+      "label": 0
+    },
+    {
+      "url": "http://199.130.45.124/apple/billing/login.php",
+      "label": 1
+    },
+    {
+      "url": "https://irctc.co.in/news/2024/05/story?utm_source=newsletter&utm_medium=email",
+      "label": 0
+    },
+    {
+      "url": "http://sbi.com@tt0rbkpafv6.cc/confirm",
+      "label": 1
+    },
+    {
+      "url": "https://bluedesign.net/recover",
+      "label": 1
+    },
+    {
+      "url": "https://dropbox-wallet-banking.top/wallet/signin.html",
+      "label": 1
+    },
+    {
+      "url": "https://www.craftsystems.org/wiki/Machine_learning?ref=homepage",
+      "label": 0
+    },
+    {
+      "url": "https://support.update.signin.alert.verify.g6bpzo9s.biz/index.php",
+      "label": 1
+    },
+    {
+      "url": "http://tinyurl.com/r1fhW",
+      "label": 1
+    },
+    {
+      "url": "https://support.datastore.dev/contact",
+      "label": 0
+    },
+    {
+      "url": "http://netflix.com@l9yq8ocuc.live/wallet",
+      "label": 1
+    },
+    {
+      "url": "https://fastnews.org/update",
+      "label": 1
+    },
+    {
+      "url": "https://bit.ly/0cPuUP",
+      "label": 0
+    },
+    {
+      "url": "https://pine-tech.co/search?utm_source=newsletter&utm_medium=email",
+      "label": 0
+    },
+    {
+      "url": "http://pixel-foods.edu/account/settings",
+      "label": 0
+    },
+    {
+      "url": "https://secure.stanford.edu/wallet/q82327aq?redirect=%2Fhome&token=ff2k5c3z6j5q1d7xyljd",
+      "label": 0
+    },
+    {
+      "url": "http://mpcejcilpjz8.site/verify-unlock/hyl77vlqu0/update.aspx",
+      "label": 1
+    },
+    {
+      "url": "https://north-hub-data.xyz/products/nova-media-499",
+      "label": 0
+    },
+    {
+      "url": "https://www.swiftstore.co/index.html",
+      "label": 1
+    },
+    {
+      "url": "https://xn--lzsxapbn-goqu.tk/account%2Fbanking?id=m8vtudgzvgt91xef&token=du7lz3embbq7jcwncmn6la1j",
+      "label": 1
+    },
+    {
+      "url": "https://pineshop.net/account",
+      "label": 1
+    },
+    {
+      "url": "https://forge-labs.com/validate/70vjo0",
+      "label": 1
+    },
+    {
+      "url": "https://atlasdesign.site/login/apple/signin.html?session=jpzqsgugpivh4tnputp9&redirect=unlock",
+      "label": 1
+    },
+    {
+      "url": "https://www.maplehealth.org/secure/index.html",
+      "label": 1
+    },
+    {
+      "url": "https://fastdesign.com/secure/apple/account.html?session=hz2325yk5pnxxc45o7g9&redirect=secure",
+      "label": 1
+    },
+    {
+      "url": "https://fastmedia.org/signin",
+      "label": 1
+    },
+    {
+      "url": "http://pinesystems767.in/wp-includes/hsbc/billing/",
+      "label": 1
+    },
+    {
+      "url": "https://www.who.int/about?id=1042&lang=en",
+      "label": 0
+    },
+    {
+      "url": "https://www.spotify.com/",
+      "label": 0
+    },
+    {
+      "url": "https://www.fastlabs.net/home.php",
+      "label": 1
+    },
+    {
+      "url": "https://www.pineworks.net/index.html",
+      "label": 1
+    },
+    {
+      "url": "https://www.hdfcbank.com?id=1042&lang=en",
+      "label": 0
+    },
+    {
+      "url": "https://paypal.com/about?id=1042&lang=en",
+      "label": 0
+    },
+    {
+      "url": "https://www.github.com/user/profile?page=2&sort=asc",
+      "label": 0
+    },
+    {
+      "url": "https://riversystems.co/wallet",
+      "label": 1
+    },
+    {
+      "url": "https://maple-design.com/wallet/z1v2yl",
+      "label": 1
+    },
+    {
+      "url": "http://atlastech.online/banking/fedex/index.php?session=1kntpvxdscz0k7drvwfc&redirect=validate",
+      "label": 1
+    },
+    {
+      "url": "https://www.forgesystems.com/index.html",
+      "label": 0
+    },
+    {
+      "url": "https://www.swifthub.co?ref=homepage",
+      "label": 0
+    },
+    {
+      "url": "https://validate.verify.update.banking.yeq7xjmn.tk/update.aspx",
+      "label": 1
+    },
+    {
+      "url": "https://bit.ly/TuP33k",
+      "label": 0
+    },
+    {
+      "url": "https://craftbooks.co.uk/support",
+      "label": 0
+    },
+    {
+      "url": "https://xn--aq880opl-vg6c.top/login%2Fvalidate?id=gmz05vq0k7d72g9h&token=q3mh48edfzeala9cmtxsn27c",
+      "label": 1
+    },
+    {
+      "url": "https://password.billing.account.recover.84hhaiaq.gq/confirm.php",
+      "label": 1
+    },
+    {
+      "url": "http://ym31sk0540sej.link/billing-wallet/zb7a7o7mmz/account.html",
+      "label": 1
+    },
+    {
+      "url": "https://accounts.mozilla.org/signin",
+      "label": 0
+    },
+    {
+      "url": "https://facebook-login-banking.live/login/login.php",
+      "label": 1
+    },
+    {
+      "url": "http://hsbc-support-login.cc/support/verify.html",
+      "label": 1
+    },
+    {
+      "url": "https://deltadesign.in/account/settings?utm_source=newsletter&utm_medium=email",
+      "label": 0
+    },
+    {
+      "url": "https://blog.stanford.edu/contact?page=2&sort=asc",
+      "label": 0
+    },
+    {
+      "url": "https://shop.urbanhealth.app/products/item-4821?page=2&sort=asc",
+      "label": 0
+    },
+    {
+      "url": "https://novanews.com/unlock",
+      "label": 1
+    },
+    {
+      "url": "https://twitter.com/category/books/page/2",
+      "label": 0
+    },
+    {
+      "url": "https://www.mozilla.org/products/item-4821",
+      "label": 0
+    },
+    {
+      "url": "https://www.python.org/category/books/page/2?id=1042&lang=en",
+      "label": 0
+    },
+    {
+      "url": "http://136.19.24.250:8080/admin/validate",
+      "label": 0
+    },
+    {
+      "url": "https://xn--v7t7u792-msqj.link/wallet%2Flogin?id=1410ay5tdrwyubxf&token=hs1b3evx2or6i1z13ub61zs4",
+      "label": 1
+    },
+    {
+      "url": "https://adobe-verify-verify.ru/verify/signin.html",
+      "label": 1
+    },
+    {
+      "url": "http://xn--w0usp5fl-5gyb.link/password%2Fconfirm?id=exdrp91wvjw0xiho&token=fpqbh0ryh5zxnub8z0ls9ohc",
+      "label": 1
+    },
+    {
+      "url": "https://cloud-foods.com/support/v3xole",
+      "label": 1
+    },
+    {
+      "url": "https://docs.stripe.com/support?id=1042&lang=en",
+      "label": 0
+    },
+    {
+      "url": "https://secure.pypi.org/confirm/zwu9ij0z?redirect=%2Fhome&token=cthqphw25j8q0qcilc6y",
+      "label": 0
+    },
+    {
+      "url": "https://support.bbc.co.uk/category/books/page/2?ref=homepage",
+      "label": 0
+    },
+    {
+      "url": "https://www.bluesystems.com/home.php",
+      "label": 1
+    },
+    {
+      "url": "https://pinebooks.in/blog?ref=homepage",
+      "label": 0
+    },
+    {
+      "url": "https://xn--324ciswp-fts9.icu/recover%2Fconfirm?id=1yg05zcrop6vd4je&token=tgf7pfg6o1o3mn5k395ur8j5",
+      "label": 1
+    },
+    {
+      "url": "https://urban-news.net/validate/x73zca",
+      "label": 1
+    },
+    {
+      "url": "http://cutt.ly/BPSlO",
+      "label": 1
+    },
+    {
+      "url": "https://verify.slack.com/update",
+      "label": 0
+    },
+    {
+      "url": "http://fedex.com@2vp2hxm.site/verify",
+      "label": 1
+    },
+    {
+      "url": "http://icici.com.validate-sqc2v.site/unlock/update.aspx",
+      "label": 1
+    },
+    {
+      "url": "http://bit.ly/Hea35Zv",
+      "label": 1
+    },
+    {
+      "url": "http://hdfc.com.support-7o7zpzru.cf/banking/verify.html",
+      "label": 1
+    },
+    {
+      "url": "https://www.github.com/learn/python?id=1042&lang=en",
+      "label": 0
+    },
+    {
+      "url": "https://kubernetes.io/products?ref=homepage",
+      "label": 0
+    },
+    {
+      "url": "http://xn--11q7uww5-wfcp.cf/account%2Fverify?id=kjcslqc3c54wsqt2&token=6q3xlrfcd6mzsgippsfnkomv",
+      "label": 1
+    },
+    {
+      "url": "https://www.cloud-design.org/wiki/Machine_learning?q=python+tutorial",
+      "label": 0
+    },
+    {
+      "url": "http://100.3.98.174:8080/admin/wallet",
+      "label": 0
+    },
+    {
+      "url": "http://bit.ly/JpI6T",
+      "label": 1
+    },
+    {
+      "url": "https://www.deltagames.co.uk/wiki/Machine_learning?utm_source=newsletter&utm_medium=email",
+      "label": 0
+    },
+    {
+      "url": "https://www.orbit-news.org/products/item-4821",
+      "label": 0
+    },
+    {
+      "url": "http://33.110.191.13:8080/admin/login",
+      "label": 0
+    },
+    {
+      "url": "https://bloommedia.net/login",
+      "label": 1
+    },
+    {
+      "url": "http://adobe-password-signin.work/password/update.aspx",
+      "label": 1
+    },
+    {
+      "url": "http://46.130.95.84/microsoft/wallet/signin.html",
+      "label": 1
+    },
+    {
+      "url": "https://docs.metrohealth.io/about",
+      "label": 0
+    },
+    {
+      "url": "https://swiftstudio.in/category/books/page/2?ref=homepage",
+      "label": 0
+    },
+    {
+      "url": "https://shop.fast-foods.in/?page=2&sort=asc",
+      "label": 0
+    },
+    {
+      "url": "http://113.26.27.55:8080/admin/password",
+      "label": 0
+    },
+    {
+      "url": "https://www.amazon.com/search?ref=homepage",
+      "label": 0
+    },
+    {
+      "url": "https://www.maple-health.co.uk/docs?q=python+tutorial",
+      "label": 0
+    },
+    {
+      "url": "https://habittech.online/billing/linkedin/update.aspx?session=apgi32o4h1iedobc5vlh&redirect=recover",
+      "label": 1
+    },
+    {
+      "url": "http://unlock.login.billing.wallet.ukjcrf0k.buzz/update.aspx",
+      "label": 1
+    },
+    {
+      "url": "https://blog.coursera.org/about?id=1042&lang=en",
+      "label": 0
+    },
+    {
+      "url": "https://i2ofunllcrz5fj.cf/account-signin/ensil0rtgy/signin.html",
+      "label": 1
+    },
+    {
+      "url": "https://www.apple.com/learn/python?id=1042&lang=en",
+      "label": 0
+    },
+    {
+      "url": "https://icici.com.support-gxyala.xyz/signin/signin.html",
+      "label": 1
+    },
+    {
+      "url": "https://www.riverhealth.com/portal/auth",
+      "label": 1
+    },
+    {
+      "url": "https://www.bbc.co.uk?utm_source=newsletter&utm_medium=email",
+      "label": 0
+    },
+    {
+      "url": "https://www.coursera.org/about",
+      "label": 0
+    },
+    {
+      "url": "http://atlasdesign186.ru/wp-includes/outlook/wallet/signin.html",
+      "label": 1
+    },
+    {
+      "url": "https://www.forgefoods.app/contact?page=2&sort=asc",
+      "label": 0
+    },
+    {
+      "url": "http://133.90.59.99/dropbox/billing/confirm.php",
+      "label": 1
+    },
+    {
+      "url": "https://docs.swiggy.com/?page=2&sort=asc",
+      "label": 0
+    },
+    {
+      "url": "https://www.cloudfoods.com/portal/auth",
+      "label": 1
+    },
+    {
+      "url": "https://trail-store.net/recover/5lyyp6",
+      "label": 1
+    },
+    {
+      "url": "https://ekxdrkz40aq15o2.click/recover-validate/wzawnytk1z/index.php",
+      "label": 1
+    },
+    {
+      "url": "http://193.241.75.78/google/confirm/update.aspx",
+      "label": 1
+    },
+    {
+      "url": "http://wellsfargo.com.signin-a6dpv.ga/password/confirm.php",
+      "label": 1
+    },
+    {
+      "url": "https://green-design-habit.xyz/products/swift-works-1633",
+      "label": 0
+    },
+    {
+      "url": "https://www.bloomdesign.edu/products/item-4821",
+      "label": 0
+    },
+    {
+      "url": "https://www.bloomtech.app/support",
+      "label": 0
+    },
+    {
+      "url": "https://secure.amazon.wallet.verify.signin.e1h1natz.top/update.aspx",
+      "label": 1
+    },
+    {
+      "url": "https://www.twitter.com/careers?page=2&sort=asc",
+      "label": 0
+    },
+    {
+      "url": "https://xn--dxk31wbh-tfns.work/unlock%2Fsupport?id=gpynyj0ufo2hoq5e&token=7l7w05y2da5b4l6hfh4n6v3r",
+      "label": 1
+    },
+    {
+      "url": "https://urbanhealth.net/signin",
+      "label": 1
+    },
+    {
+      "url": "https://deltaworks.co/wallet",
+      "label": 1
+    },
+    {
+      "url": "http://183.138.236.171/hsbc/secure/signin.html",
+      "label": 1
+    },
+    {
+      "url": "https://lotus-foods.com/secure/9tqe5j",
+      "label": 1
+    },
+    {
+      "url": "https://habitfoods.org/login",
+      "label": 1
+    },
+    {
+      "url": "https://cedardesign.site/support/facebook/update.aspx?session=3hz8g116nx8nyb1c9gp1&redirect=login",
+      "label": 1
+    },
+    {
+      "url": "https://396w8b3y9r6auk.ga/support-support/8ijqhqh1d5/",
+      "label": 0
+    },
+    {
+      "url": "https://data-media.co/wiki/Machine_learning",
+      "label": 0
+    },
+    {
+      "url": "https://96zmpgb8fq59p5sqgqxb12.cf/walletalert/cux04n3jgx/update.aspx",
+      "label": 0
+    },
+    {
+      "url": "https://pypi.org/account/settings?page=2&sort=asc",
+      "label": 0
+    },
+    {
+      "url": "https://swiggy.com/docs",
+      "label": 0
+    },
+    {
+      "url": "https://www.orbit-games.net/news/2024/05/story?ref=homepage",
+      "label": 0
+    },
+    {
+      "url": "http://128.19.231.160/linkedin/update/signin.html",
+      "label": 1
+    },
+    {
+      "url": "https://youtube.com/blog?id=1042&lang=en",
+      "label": 0
+    },
+    {
+      "url": "http://219.153.112.69/chase/wallet/verify.html",
+      "label": 1
+    },
+    {
+      "url": "http://swiftworks.online/support/outlook/secure.php?session=lv5h8nnucom1wwk66kl8&redirect=banking",
+      "label": 1
+    },
+    {
+      "url": "https://www.target.com/help/articles?utm_source=newsletter&utm_medium=email",
+      "label": 0
+    },
+    {
+      "url": "https://deltahub.com/pricing?ref=homepage",
+      "label": 0
+    },
+    {
+      "url": "http://apple-support-support.xyz/support/login.php",
+      "label": 1
+    },
+    {
+      "url": "http://is.gd/mDh74",
+      "label": 1
+    },
+    {
+      "url": "https://docs.github.com/category/books/page/2",
+      "label": 0
+    },
+    {
+      "url": "https://www.fast-tech.app/about?ref=homepage",
+      "label": 0
+    },
+    {
+      "url": "http://237.237.76.137/instagram/support/secure.php",
+      "label": 1
+    },
+    {
+      "url": "http://www.flipkart.com/news/2024/05/story",
+      "label": 0
+    },
+    {
+      "url": "https://www.stanford.edu/careers?page=2&sort=asc",
+      "label": 0
+    },
+    {
+      "url": "https://www.icicibank.com/signin",
+      "label": 0
+    },
+    {
+      "url": "https://www.lotus-media.org/docs",
+      "label": 0
+    },
+    {
+      "url": "https://www.northtravel.co.uk/help/articles",
+      "label": 0
+    },
+    {
+      "url": "https://www.novadesign.in/docs?ref=homepage",
+      "label": 0
+    },
+    {
+      "url": "https://update.login.unlock.0i1ww4pw.tk/confirm.php",
+      "label": 1
+    },
+    {
+      "url": "http://microsoft.com@k2c1s90.link/billing",
+      "label": 1
+    },
+    {
+      "url": "https://www.paypal.com/about",
+      "label": 0
+    },
+    {
+      "url": "http://xn--fp4ub6p5-gv9x.work/login%2Fupdate?id=p3ujdx18fh9tzaxc&token=ee80y75xdjxzx61kc74ekfgo",
+      "label": 1
+    },
+    {
+      "url": "http://40.100.128.216/linkedin/verify/confirm.php",
+      "label": 1
+    },
+    {
+      "url": "https://blog.riverfoods.app/products/item-4821?page=2&sort=asc",
+      "label": 0
+    },
+    {
+      "url": "http://129.105.79.113/hsbc/login/verify.html",
+      "label": 1
+    },
+    {
+      "url": "https://sdxam7wicfmnlvm.ml/verify-wallet/g191loap1k/account.html",
+      "label": 1
+    },
+    {
+      "url": "https://www.coursera.org/about?utm_source=newsletter&utm_medium=email",
+      "label": 0
+    },
+    {
+      "url": "https://www.cedarbooks.co.uk/account/settings?utm_source=newsletter&utm_medium=email",
+      "label": 0
+    },
+    {
+      "url": "https://www.lotus-systems.co.uk/search",
+      "label": 0
+    },
+    {
+      "url": "https://secure.spotify.com/support/dw8s9pmi?redirect=%2Fhome&token=cqc05fwizhc1jj51oyr3",
+      "label": 0
+    },
+    {
+      "url": "https://www.lotus-hub.co/wiki/Machine_learning?q=python+tutorial",
+      "label": 0
+    },
+    {
+      "url": "http://login.billing.secure.verify.signin.8wzgl51r.online/account.html",
+      "label": 1
+    },
+    {
+      "url": "http://176.71.60.52/fedex/billing/update.aspx",
+      "label": 1
+    },
+    {
+      "url": "http://outlook-verify-billing.site/verify/index.php",
+      "label": 1
+    },
+    {
+      "url": "https://www.fast-studio.com/account/settings",
+      "label": 0
+    },
+    {
+      "url": "https://forge-travel.net/verify/mcrcun",
+      "label": 1
+    },
+    {
+      "url": "https://shop.shopify.com/careers",
+      "label": 0
+    },
+    {
+      "url": "https://support.greensystems.net?q=python+tutorial",
+      "label": 0
+    },
+    {
+      "url": "https://www.data-books.app/signin",
+      "label": 0
+    },
+    {
+      "url": "https://www.bloomstore.app",
+      "label": 0
+    },
+    {
+      "url": "https://www.stone-foods.edu/user/profile?id=1042&lang=en",
+      "label": 0
+    },
+    {
+      "url": "https://bright-media.com/account/nml9li",
+      "label": 1
+    },
+    {
+      "url": "https://bit.ly/POtjlz",
+      "label": 0
+    },
+    {
+      "url": "https://docs.google.com/search",
+      "label": 0
+    },
+    {
+      "url": "https://atlas-labs.com/support/ilktgf",
+      "label": 1
+    },
+    {
+      "url": "https://pinetech.site/validate/netflix/signin.html?session=kwih73p4m7b0vzgugnqv&redirect=recover",
+      "label": 1
+    },
+    {
+      "url": "https://signin.alert.password.zjossgdz.info/verify.html",
+      "label": 1
+    },
+    {
+      "url": "https://www.docker.com/support?id=1042&lang=en",
+      "label": 0
+    },
+    {
+      "url": "https://nova-media.app/account/settings",
+      "label": 0
+    },
+    {
+      "url": "https://m1s7lz0e74fppalpvtf.ru/validate-password/8af8m3fn2d/account.html",
+      "label": 1
+    },
+    {
+      "url": "http://amazon-verify-billing.tk/verify/update.aspx",
+      "label": 1
+    },
+    {
+      "url": "https://www.icicibank.com/wiki/Machine_learning",
+      "label": 0
+    },
+    {
+      "url": "https://www.irctc.co.in/learn/python?q=python+tutorial",
+      "label": 0
+    },
+    {
+      "url": "https://www.stanford.edu/news/2024/05/story?utm_source=newsletter&utm_medium=email",
+      "label": 0
+    },
+    {
+      "url": "https://www.medium.com/category/books/page/2",
+      "label": 0
+    },
+    {
+      "url": "https://www.lotusbooks.com/careers?utm_source=newsletter&utm_medium=email",
+      "label": 0
+    },
+    {
+      "url": "https://www.forgehub.co/index.html",
+      "label": 1
+    },
+    {
+      "url": "http://174.11.128.24:8080/admin/update",
+      "label": 0
+    },
+    {
+      "url": "http://paypal.com.billing-pki65b.ga/update/",
+      "label": 1
+    },
+    {
+      "url": "http://bit.ly/EtrYzo",
+      "label": 1
+    },
+    {
+      "url": "https://cedarnews.com/verify/office365/login.php?session=m2hepqbyd778y6ueajm8&redirect=validate",
+      "label": 1
+    },
+    {
+      "url": "https://thehindu.com/wiki/Machine_learning?page=2&sort=asc",
+      "label": 0
+    },
+    {
+      "url": "http://docs.amazon.com/user/profile",
+      "label": 0
+    },
+    {
+      "url": "http://habithub802.net/wp-includes/linkedin/validate/verify.html",
+      "label": 1
+    },
+    {
+      "url": "https://www.shopify.com/contact?utm_source=newsletter&utm_medium=email",
+      "label": 0
+    },
+    {
+      "url": "https://www.atlasstore.org/index.html",
+      "label": 1
+    },
+    {
+      "url": "https://signin.bbc.co.uk/confirm",
+      "label": 0
+    },
+    {
+      "url": "https://bit.ly/IWZd4a",
+      "label": 0
+    },
+    {
+      "url": "http://amazon.com.confirm-6ab5.link/alert/secure.php",
+      "label": 1
+    },
+    {
+      "url": "https://northstudio.net/confirm",
+      "label": 1
+    },
+    {
+      "url": "http://swifthub105.in/wp-includes/icici/unlock/index.php",
+      "label": 1
+    },
+    {
+      "url": "http://cedarworks218.com/wp-includes/outlook/alert/",
+      "label": 1
+    },
+    {
+      "url": "https://blog.nasa.gov/support?page=2&sort=asc",
+      "label": 0
+    },
+    {
+      "url": "https://thehindu.com/category/books/page/2",
+      "label": 0
+    },
+    {
+      "url": "http://whatsapp.com@kaehly9.tk/confirm",
+      "label": 1
+    },
+    {
+      "url": "https://bit.ly/wvjkJ1",
+      "label": 0
+    },
+    {
+      "url": "http://banking.wallet.verify.7p2r6u0m.cc/secure.php",
+      "label": 1
+    },
+    {
+      "url": "https://forge-works-river.org/account/account?id=f2gj81fkowt7&session=5fi7kppwa0vzkkic",
+      "label": 0
+    },
+    {
+      "url": "https://urban-news-habit.live/account/alert?id=2alunqr8o1kj&session=wv2qnrmtn29tnyfm",
+      "label": 0
+    },
+    {
+      "url": "http://242.38.48.63/apple/secure/signin.html",
+      "label": 1
+    },
+    {
+      "url": "http://pixelnews95.com/wp-includes/whatsapp/alert/",
+      "label": 1
+    },
+    {
+      "url": "https://zoom.us/learn/python?ref=homepage",
+      "label": 0
+    },
+    {
+      "url": "https://bit.ly/SJqKVf",
+      "label": 0
+    },
+    {
+      "url": "https://pixelsystems.net/alert",
+      "label": 1
+    },
+    {
+      "url": "https://hdfc-support-signin.work/support/secure.php",
+      "label": 1
+    },
+    {
+      "url": "http://122.48.140.217/chase/billing/confirm.php",
+      "label": 1
+    },
+    {
+      "url": "https://hsbc-secure-wallet.link/secure/",
+      "label": 1
+    },
+    {
+      "url": "http://billing.validate.support.password.0zhoqxjs.ml/signin.html",
+      "label": 1
+    },
+    {
+      "url": "https://bluehub.net/signin",
+      "label": 1
+    },
+    {
+      "url": "https://bloommedia.org/confirm",
+      "label": 1
+    },
+    {
+      "url": "https://smarthub.org/password",
+      "label": 1
+    },
+    {
+      "url": "https://www.fastfoods.com/home.php",
+      "label": 1
+    },
+    {
+      "url": "https://bit.ly/fdNKn6",
+      "label": 0
+    },
+    {
+      "url": "https://iitb.ac.in/?utm_source=newsletter&utm_medium=email",
+      "label": 0
+    },
+    {
+      "url": "https://login.docker.com/recover",
+      "label": 0
+    },
+    {
+      "url": "https://data-labs.net/banking/yv16zh",
+      "label": 1
+    }
+  ],
+  "n_train": 9479,
+  "n_test": 2370
+}
